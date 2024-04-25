@@ -1,1 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmConnect - Connecting Farmers and Consumers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>FarmConnect</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Welcome to FarmConnect</h2>
+            <p>Empowering farmers. Connecting communities.</p>
+            <a href="#" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We understand the challenges faced by farmers in today's market – from navigating complex supply chains to competing with industrial agriculture giants. Similarly, we recognize the growing disconnect between consumers and the origins of their food, leading to questions about authenticity, quality, and sustainability.
+
+That's where FarmConnect comes in.
+
+With FarmConnect, we're not just building a platform; we're building a movement. A movement that empowers farmers to showcase their products, tell their stories, and reach consumers directly. A movement that enables consumers to make informed choices, support local agriculture, and build meaningful connections with the farmers who feed them.
+
+But FarmConnect is more than just a marketplace. It's a community – a community of farmers, consumers, and advocates united by a shared vision of a better food future. Through forums, events, and educational resources, we're fostering collaboration, knowledge sharing, and collective action to create positive change in the agricultural industry.
+
+So whether you're a farmer looking to grow your business, a consumer seeking fresh and locally sourced goods, or simply someone passionate about supporting local agriculture, we invite you to join us on this journey. Together, let's build a brighter, more sustainable future for agriculture and communities worldwide.
+
+.</p>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container">
+            <h2>Features</h2>
+            <ul>
+                <li>Direct farmer-consumer interaction</li>
+                <li>Product transparency</li>
+                <li>Community engagement</li>
+                <!-- Add more features here -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have a question or feedback? Reach out to us!</p>
+            <form action="submit.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 FarmConnect. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
 
