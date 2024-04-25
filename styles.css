@@ -1,6 +1,6 @@
 /* Reset styles */
 * {
-    margin: 12;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -22,6 +22,11 @@ header {
     background-color: #333;
     color: #fff;
     padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 header h1 {
@@ -45,9 +50,34 @@ nav ul li a {
 /* Hero section */
 #hero {
     text-align: center;
-    padding: 100px 0;
+    padding: 200px 0;
     background-color: #4CAF50;
     color: #fff;
+    position: relative;
+}
+
+#hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#hero .btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #4CAF50;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#hero .btn:hover {
+    background-color: #eee;
 }
 
 /* About section */
@@ -67,6 +97,21 @@ nav ul li a {
 
 #features ul li {
     margin-bottom: 10px;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+#features ul li::before {
+    content: "\2022";
+    color: #4CAF50;
+    font-weight: bold;
+    display: inline-block;
+    width: 20px;
+    margin-right: 10px;
+}
+
+#features ul li:hover {
+    transform: scale(1.05);
 }
 
 /* Contact section */
@@ -91,4 +136,3 @@ form button {
     padding: 10px 20px;
     cursor: pointer;
 }
-
